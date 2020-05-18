@@ -1,0 +1,32 @@
+th {
+}
+
+td {
+	text-align: center;
+	border: solid 1px black;
+	min-width: 1ex;
+	min-height: 1ex;
+}
+
+th:first-child {
+	text-align: left;
+}
+
+td.plant {
+	background-color: green;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.date {
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	white-space: nowrap;
+	font-size: 50%;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
